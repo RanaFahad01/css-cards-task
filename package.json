@@ -1,5 +1,6 @@
 {
   "name": "vite-min-template",
+  "homepage": "https://ranafahad01.github.io/css-cards-task/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,11 +8,13 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@mantine/core": "8.2.8",
     "@mantine/hooks": "8.2.8",
+    "gh-pages": "^6.3.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
